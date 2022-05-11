@@ -252,7 +252,7 @@ nav {
         flex-direction: column;
         /* display: block; */
         justify-content: space-between;
-        padding: 180px 30px 61px 30px;
+        padding: 140px 30px 61px 30px;
     }
     .hero-2{
         justify-content: start;
