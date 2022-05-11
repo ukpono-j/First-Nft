@@ -34,6 +34,7 @@ nav {
     font-size: 29px;
 }
 
+
 .nav-links {
     display: flex;
     align-items: center;
@@ -62,7 +63,7 @@ nav {
 
 .burger div {
     width: 25px;
-    height: 3px;
+    height: 2px;
     background-color: #fff;
     margin: 5px;
     transition: all 0.3s ease
@@ -86,6 +87,9 @@ nav {
 
     .nav-links li a {
         font-size: 20px !important;
+    }
+    .logo{
+        font-size: 19px !important;
     }
 
 }
