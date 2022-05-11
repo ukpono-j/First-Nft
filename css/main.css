@@ -245,3 +245,14 @@ nav {
     margin-left: 20px;
     font-size: 15px;
 }
+
+
+@media screen and (max-width: 789px){
+    .hero{
+        height: 100vh;
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        padding: 180px 100px 61px 100px;
+    }
+}
