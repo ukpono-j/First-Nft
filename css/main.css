@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Koulen&family=Lilita+One&family=Montserrat+Alternates:wght@500&family=Montserrat:wght@200;300;400;500;700&family=Open+Sans:wght@400;700&family=Overpass:wght@200;300;500&family=Permanent+Marker&family=Poppins:wght@300;400;500;600&family=Rajdhani:wght@500;600&family=Source+Sans+Pro:wght@200;300;400;700&display=swap');
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-header{
+
+header {
     background-color: #0075eb;
-    background-image: linear-gradient(268deg,#271e55,#03020e);
+    background-image: linear-gradient(268deg, #271e55, #03020e);
     height: auto;
 }
+
 nav {
     position: fixed !important;
     z-index: 2000 !important;
@@ -16,11 +19,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-     height: 13vh;
+    height: 13vh;
     /* background-color: #000; */
-      /* border-bottom: 1px solid white; */
-      background-color: #0075eb;
-      background-image: linear-gradient(268deg,#271e55,#03020e);
+    /* border-bottom: 1px solid white; */
+    background-color: #0075eb;
+    background-image: linear-gradient(268deg, #271e55, #03020e);
     padding: 0px 100px;
 }
 
@@ -66,9 +69,10 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-    nav{
+    nav {
         padding: 0px 20px;
     }
+
     .nav-links {
         padding: 10px 20px !important;
         width: 100%;
@@ -103,7 +107,7 @@ nav {
         overflow-y: scroll !important;
         top: 10vh;
         background-color: #0075eb;
-        background-image: linear-gradient(268deg,#271e55,#03020e);
+        background-image: linear-gradient(268deg, #271e55, #03020e);
         display: flex;
         flex-direction: column;
         padding: 20px 30px;
@@ -157,7 +161,7 @@ nav {
 
 
 /* ================ HERO ============== */
-.hero{
+.hero {
     height: auto;
     width: 100%;
     display: flex;
@@ -165,6 +169,7 @@ nav {
     padding: 180px 100px 61px 100px;
     align-items: center;
 }
+
 /* .hero-1{
     background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -176,13 +181,14 @@ nav {
     background-size: cover;
   
 } */
-.hero-1{
+.hero-1 {
     width: 100%;
     height: auto;
     /* border: 1px solid white; */
     color: white;
 }
-.hero-2{
+
+.hero-2 {
     width: 100%;
     height: auto;
     /* border: 1px solid white; */
@@ -190,35 +196,41 @@ nav {
     justify-content: center;
     align-items: center;
 }
-.hero-1 h1{
+
+.hero-1 h1 {
     font-family: 'Lilita One', cursive;
     color: white;
     font-size: 53px;
 }
-.hero-1 p{
+
+.hero-1 p {
     font-family: "Poppins";
     padding-top: 20px;
     line-height: 24px;
     font-size: 15px;
 }
-.hero-img{
+
+.hero-img {
     width: 380px;
     height: 420px;
 }
-.hero-img img{
+
+.hero-img img {
     width: 100%;
     border-radius: 20px;
     height: 100%;
     object-fit: cover;
 }
-.button-area{
+
+.button-area {
     height: auto;
     width: 100%;
     /* border: 1px solid white; */
     display: flex;
-    margin-top:40px;
+    margin-top: 40px;
 }
-.hero-btn-1{
+
+.hero-btn-1 {
     padding: 10px 20px;
     justify-content: center;
     background-color: #0075eb;
@@ -231,7 +243,8 @@ nav {
     font-weight: 400;
     font-size: 15px;
 }
-.hero-btn-2{
+
+.hero-btn-2 {
     padding: 10px 20px;
     justify-content: center;
     background-color: #fff;
@@ -247,79 +260,93 @@ nav {
 }
 
 
-@media screen and (max-width: 789px){
-    .hero{
+@media screen and (max-width: 789px) {
+    .hero {
         flex-direction: column;
         /* display: block; */
         justify-content: space-between;
         padding: 140px 30px 61px 30px;
     }
-    .hero-2{
+
+    .hero-2 {
         justify-content: start;
         margin-top: 60px;
     }
-    .hero-img{
+
+    .hero-img {
         width: 100%;
         height: 520px;
     }
-    .hero-1 h1{
+
+    .hero-1 h1 {
         font-size: 33px;
     }
-    .hero-1 p{
+
+    .hero-1 p {
         font-size: 14px;
     }
 }
 
 
 /* ======================== ABOUT ================ */
-.about{
+.about {
     /* border: 1px solid white; */
     height: auto;
     background-color: #0075eb;
-    background-image: linear-gradient(268deg,#271e55,#03020e);
+    background-image: linear-gradient(268deg, #271e55, #03020e);
     width: 100%;
 }
-.about-container{
+
+.about-container {
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     height: auto;
     padding: 80px 100px;
 }
-.about-container > div{
+
+.about-container>div {
     /* border: 1px solid #fff; */
     height: auto;
     color: white;
     width: 100%;
 }
-.about-img  .about-img-container{
-    width: 340px;
-    margin-left: 80px;
+
+.about-img .about-img-container {
+    width: 490px;
+    /* margin-left: 80px; */
     border-radius: 30px;
-    height: 300px;
+    height: 360px;
     border: 1px solid #fff;
 }
-.about-container h1{
+
+.about-container h1 {
     font-family: 'Lilita One', cursive;
 }
-.about-container p{
+
+.about-container p {
     font-family: "Poppins";
     padding-top: 16px;
     line-height: 26px;
 }
-.about-container img{
+
+.about-container img {
     width: 100%;
     height: 100%;
     border-radius: 30px;
     object-fit: cover;
 }
-@media screen and (max-width: 900px){
-    .about-container{
+
+@media screen and (max-width: 900px) {
+    .about-container {
         flex-direction: column;
         padding: 30px 30px;
     }
-    .about-img  .about-img-container{
+
+    .about-img .about-img-container {
         width: 100%;
         margin-top: 40px;
+        height: 300px;
         margin-left: 0px;
         border-radius: 30px;
     }
