@@ -18,7 +18,7 @@ nav {
     align-items: center;
      height: 13vh;
     /* background-color: #000; */
-      border-bottom: 1px solid white;
+      /* border-bottom: 1px solid white; */
       background-color: #0075eb;
       background-image: linear-gradient(268deg,#271e55,#03020e);
     padding: 0px 100px;
@@ -262,4 +262,11 @@ nav {
         width: 100%;
         height: 520px;
     }
+    .hero-1 h1{
+        font-size: 33px;
+    }
+    .hero-1 p{
+        font-size: 14px;
+    }
 }
+
