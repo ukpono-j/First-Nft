@@ -270,3 +270,57 @@ nav {
     }
 }
 
+
+/* ======================== ABOUT ================ */
+.about{
+    /* border: 1px solid white; */
+    height: auto;
+    background-color: #0075eb;
+    background-image: linear-gradient(268deg,#271e55,#03020e);
+    width: 100%;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding: 80px 100px;
+}
+.about-container > div{
+    /* border: 1px solid #fff; */
+    height: auto;
+    color: white;
+    width: 100%;
+}
+.about-img  .about-img-container{
+    width: 340px;
+    margin-left: 80px;
+    border-radius: 30px;
+    height: 300px;
+    border: 1px solid #fff;
+}
+.about-container h1{
+    font-family: 'Lilita One', cursive;
+}
+.about-container p{
+    font-family: "Poppins";
+    padding-top: 16px;
+    line-height: 26px;
+}
+.about-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+}
+@media screen and (max-width: 900px){
+    .about-container{
+        flex-direction: column;
+        padding: 30px 30px;
+    }
+    .about-img  .about-img-container{
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+        border-radius: 30px;
+    }
+}
