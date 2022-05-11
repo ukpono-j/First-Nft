@@ -351,3 +351,92 @@ nav {
         border-radius: 30px;
     }
 }
+
+
+/* ======================== OUR TEAM ================= */
+.team{
+    height: auto;
+    padding: 20px 0px;
+    width: 100%;
+    /* border: 1px solid #fff; */
+    background-color: #0075eb;
+    background-image: linear-gradient(268deg, #271e55, #03020e);    
+}
+.team-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 100px;
+}
+.team-container > div{
+    width: 200px;
+    height: auto;
+    /* border: 1px solid #fff; */
+    margin: 10px 16px;
+}
+.team > h1{
+    text-align: center;
+    font-family: 'Lilita One', cursive;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+.team-img{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid white; */
+}
+.team-txt{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #fff; */
+}
+.team1{
+    width: 100%;
+    height: 200px;
+    border-radius: 30px;
+    /* border: 1px solid red; */
+}
+.team1 img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 30px;
+}
+.team1-text{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid white; */
+    margin-top: 12px;
+}
+.team1-text h5{
+    font-family: 'Lilita One', cursive;
+    color: white;
+    font-size: 22px;
+}
+.team1-text h6{
+    font-family: "Poppins";
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+}
+.team-txt h1{
+    font-family: 'Lilita One', cursive;
+}
+.team-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width: 900px){
+    .team-container > div{
+        width: 100%;
+        height: auto;
+        padding-bottom:20px;
+    }
+    .team-container{
+        padding: 0px 20px;
+    }
+
+
+}
